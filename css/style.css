@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Medium.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+    font-family: Roboto;
+}
+.firstColor{
+    background-color: #171112;
+}
+.secondColor{
+    background-color: #1a1314;
+}
+#orbRow {
+    border-top: 2px solid #211c1d;
+    border-bottom: 2px solid #211c1d;
+}
+#count{
+    border: none;
+    color: #ffffff;
+    font-size: 36px;
+    height: 52px;
+}
+#title{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form-group h5{
+    color: #393334;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 50px;
+    margin: auto;
+}
+input.form-control{
+    text-align: center;
+}
+#subOrbRow div{
+    width: 95px;
+    margin: auto;
+}
+#subOrbRow h5{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin:auto;
+    width:30px;
+}
+
+#buttonRow button{
+    background-color: #1a1314;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: Roboto;
+}
+#orbImg{
+    width:55px;
+    height:60px;
+}
+
+.inputBorder{
+    border: 2px solid #211c1d;
+}
+select{
+    text-transform: uppercase;
+    color:#ffffff;
+    height: 3em;
+}
+label{
+    margin-top: 1%;
+    text-transform: uppercase;
+}
+.fa:hover{
+    color:#ffffff;
+}
